@@ -1,3 +1,7 @@
+body{
+  background-color: #080808;
+
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.header-text{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.info-text{
+  font-size: 30px;
+  color: white;
+}
+
+.info-text span{
+  font-size: 35px;
+  color: #ff004f;
+}
+.request-types-text h1{
+  color: #ababab;
+
+}
+.request-types-text span{
+  color: #ff004f;
+  
+}
+
+.auth-buttons{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.auth-buttons .sign-up-button , .login-button{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  background: #ff004f;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+.sign-up-button:hover , .login-button:hover{
+  background: #fff;
+  color: #ff004f;
 }
