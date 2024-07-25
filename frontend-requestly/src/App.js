@@ -29,7 +29,7 @@ function App() {
           </div>
           {/* types of service we provide */}
           <div className="request-types-text">
-            <h1>Request you can send is <span className='auto-type'></span> Request </h1> 
+            <h3>Request you can send is <span className='auto-type'></span> Request </h3> 
           </div>
         </div>
 
