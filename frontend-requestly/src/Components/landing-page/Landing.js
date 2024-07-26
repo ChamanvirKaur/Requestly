@@ -33,12 +33,17 @@ function Landing() {
           {/* types of service we provide */}
           <div className="request-types-text">
             <h3>Request you can send is <span className='auto-type'></span> Request </h3> 
+            
           </div>
         </div>
+        <div className='explore-que'>
+            <h3>Want to explore ?</h3>
 
+            </div>
         <div className="auth-buttons">
+           
           <div className="sign-up">
-            <button className='sign-up-button'>Sign-up</button>
+            <a href="/signup"><button href="/signup" className='sign-up-button'>Sign-up</button></a>
           </div>
           <div className="login">
             <button className='login-button'>Login</button>
