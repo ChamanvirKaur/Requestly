@@ -1,23 +1,24 @@
-.signup-container{
+.login-container{
     width: 50%;
     background-color: black;
-    margin: auto;
+    
+    margin:  120px auto;
     border: 1px solid #262626     ;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.signup-h1 h1{
+.login-h1 h1{
     text-align: center;
     color: #ff004f;
 }   
 
-.signup-form h3{
+.login-form h3{
     color: #ff004f;
     margin: 10px;
 }
 
-.signup-form input{
+.login-form input{
     width: 100%;
     border: 0;
     outline: none;

@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'; // it w
 import Landing from './Components/landing-page/Landing';
 import Header from './Components/header/Header';
 import Signup from './Components/signup/Signup';
+import Login from './Components/login/Login';
 function App() {
  
   return (
@@ -18,6 +19,9 @@ function App() {
         <Signup/>
       </Route>
 
+      <Route path="/Login">
+        <Login/>
+      </Route>
      </Switch>
     </>
    </Router>
