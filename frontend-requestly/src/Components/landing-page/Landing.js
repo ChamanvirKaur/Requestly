@@ -1,6 +1,24 @@
-import React from 'react'
+
 import  './Landing.css'
+import Typed from 'typed.js'; // before importing typed.js you need to install it using npm install typed.js
+import React,{useEffect} from 'react';
+
+
 function Landing() {
+    useEffect(() => {
+        // Initialize Typed.js
+        const typed = new Typed('.auto-type', {
+          strings: ["Media", "Creative", "Print", "Social Media", "Other"],
+          typeSpeed: 150,
+          backSpeed: 150,
+          loop: true
+        });
+    
+        // Cleanup function to destroy the instance of Typed.js
+        return () => {
+          typed.destroy();
+        };
+      }, []);
   return (
 
      <>
