@@ -4,12 +4,13 @@ import Landing from './Components/landing-page/Landing';
 import Header from './Components/header/Header';
 import Signup from './Components/signup/Signup';
 import Login from './Components/login/Login';
+
 function App() {
  
   return (
    <Router>
     <>
-      <Header/>
+      <Header/>s
      <Switch>
      <Route path="//">
         <Landing/>
@@ -22,6 +23,8 @@ function App() {
       <Route path="/Login">
         <Login/>
       </Route>
+  
+     
      </Switch>
     </>
    </Router>

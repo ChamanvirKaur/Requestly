@@ -46,7 +46,7 @@ function Landing() {
             <a href="/signup"><button href="/signup" className='sign-up-button'>Sign-up</button></a>
           </div>
           <div className="login">
-            <button className='login-button'>Login</button>
+           <a href="/login"> <button className='login-button'>Login</button></a>
           </div>
         </div>
       </div>
