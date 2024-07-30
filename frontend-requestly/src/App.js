@@ -4,13 +4,15 @@ import Landing from './Components/landing-page/Landing';
 import Header from './Components/header/Header';
 import Signup from './Components/signup/Signup';
 import Login from './Components/login/Login';
+import Dashpage from './Components/dashboard-page/Dashpage';
+
 
 function App() {
  
   return (
    <Router>
     <>
-      <Header/>s
+      <Header/>
      <Switch>
      <Route path="//">
         <Landing/>
@@ -24,7 +26,9 @@ function App() {
         <Login/>
       </Route>
   
-     
+      <Route path="/Dashboard">
+        <Dashpage/>
+      </Route>
      </Switch>
     </>
    </Router>
