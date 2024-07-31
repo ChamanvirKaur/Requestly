@@ -1,43 +1,24 @@
-.login-container{
-    width: 100%;   
+.signup-container{
+    width: 50%;
+   
+    margin: auto;
+    /* border: 1px solid #262626     ; */
     padding: 20px;
     margin-bottom: 20px;
-    display: flex;
-}
-.login-otherContent{
-  width: 50%;
-  padding: 50px;
-  text-align: center;
-}
-.login-otherContent i{
-  font-size: 500px;
- margin-top: 40px;
-}
-.login-contentBox{
-  width: 50%;
-  padding: 20px;
-  margin-bottom: 20px;
-  margin-top: 10%;
-
+    margin-top: 20px;
 }
 
-.login-form{
-  width: 50%;
-  
-  margin: auto;
-}
-
-.login-h1 h1{
+.signup-h1 h1{
     text-align: center;
     color: #ff004f;
 }   
 
-.login-form h3{
+.signup-form h3{
     color: #ff004f;
     margin: 10px;
 }
 
-.login-form input{
+.signup-form input{
     width: 100%;
     border: 0;
     outline: none;
@@ -101,22 +82,7 @@
     transition: background 0.5s;
   }
 
-/* ----------------------------CSS for small screen ---------------------------- */
-
-@media only screen and (max-width : 660px){
-  .login-container{
-    display: block;
+  .next-back-buttons{
+    display: flex;
+    margin-top: 40px;
   }
-
-  .login-otherContent{
-    width: 100%;
-  }
-
-  .login-otherContent i{
-    font-size: 200px
-  }
-
-  .login-contentBox{
-    width: 100%;
-  }
-}

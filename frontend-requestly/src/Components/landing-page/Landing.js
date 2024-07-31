@@ -28,7 +28,7 @@ function Landing() {
           {/* information about app */}
           <div className="info-text">
               <h1>Requestly</h1>
-              <p>Make any marketing related request with our simple and easy to understand platform <span>Requestly</span></p>
+              <h4>Make any marketing related request with our simple and easy to understand platform <span>Requestly</span></h4>
           </div>
           {/* types of service we provide */}
           <div className="request-types-text">
@@ -49,6 +49,47 @@ function Landing() {
            <a href="/login"> <button className='login-button'>Login</button></a>
           </div>
         </div>
+        <div id="services">
+    <div class="container">
+        <h1 class="subtitle">Requests You can make </h1>
+        <div class="services-list">
+            <div>
+            <i class="fa-solid fa-photo-film"></i>
+                <h2>Media</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus assumenda fugiat numquam sint est?</p>
+                <a href="#">lean more</a>
+            </div>
+
+            <div>
+            <i class="fa-brands fa-creative-commons-share"></i>
+                <h2>Creative</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus assumenda fugiat numquam sint est?</p>
+                <a href="#">lean more</a>
+            </div>
+
+            <div>
+            <i class="fa-solid fa-print"></i>
+                <h2>Print</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus assumenda fugiat numquam sint est?</p>
+                <a href="#">lean more</a>
+            </div>
+
+            <div>
+            <i class="fa-brands fa-facebook"></i>
+                <h2>Social-Media</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus assumenda fugiat numquam sint est?</p>
+                <a href="#">lean more</a>
+            </div>
+
+            <div>
+            <i class="fa-solid fa-bars"></i>
+                <h2>Other</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus assumenda fugiat numquam sint est?</p>
+                <a href="#">lean more</a>
+            </div>
+        </div>
+    </div>
+</div>
       </div>
  </>
   )

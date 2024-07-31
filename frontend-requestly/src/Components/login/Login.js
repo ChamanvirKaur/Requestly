@@ -60,24 +60,28 @@ function Login() {
     }
   return (
     <div className='login-container'>
+        <div className="login-otherContent">
+      <i class="fa-solid fa-user"></i>
+            
+        </div>
         <div className="login-contentBox">
-            <div className="login-h1">
-                <h1>login</h1>
-            </div>
+           
             <form action="" onSubmit={handleSubmit}>
                 <div className="login-form">
-                
+                <div className="login-h1">
+                <h1>login</h1>
+            </div>
                     <input value={formData.email} name='email' onChange={handleChnage} placeholder='Email' type="email" />
                     {emailError &&  <span style={{color : "red"}}> Please enter email </span>}
                     <input value={formData.password} onChange={handleChnage} name='password' placeholder='Password' type="password" />
                     {passwordError &&  <span style={{color : "red"}}> Please enter password </span>}
-
-                </div>
-                <div>
+                    <div>
                     <button className="submit-button" type='submit'>
                         Submit
                     </button>
                 </div>
+                </div>
+               
             </form>
         </div>
         {showPopup && (

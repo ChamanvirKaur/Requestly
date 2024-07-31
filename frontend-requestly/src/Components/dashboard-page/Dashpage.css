@@ -1,6 +1,7 @@
 .dashboard-maincontainer{
     display: flex;
-    
+  
+    scroll-behavior: smooth;
 }   
 
 .dashboard-sidenavbar{
