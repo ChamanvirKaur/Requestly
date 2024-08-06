@@ -5,7 +5,7 @@ import Header from './Components/header/Header';
 import Signup from './Components/signup/Signup';
 import Login from './Components/login/Login';
 import Dashpage from './Components/dashboard-page/Dashpage';
-
+import MakeRequest from './Components/makeRequest/MakeRequest';
 
 function App() {
  
@@ -26,6 +26,9 @@ function App() {
     
   
       <Route path="/Dashboard" element={<Dashpage/>}/>
+
+      <Route path="/makeRequest" element={<MakeRequest/>}/>
+
         
      
      </Routes>

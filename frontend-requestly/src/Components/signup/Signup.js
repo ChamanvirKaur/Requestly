@@ -5,7 +5,7 @@ import { Route } from 'react-router-dom/cjs/react-router-dom.min';
 import FirstStep from '../steps-signup/FirstStep';
 import SecondStep from '../steps-signup/SecondStep';
 import ThirdStep from '../steps-signup/ThirdStep';
-import {Stepper, StepLabel, Step} from '@mui/material'
+import {Stepper, StepLabel, Step, MobileStepper} from '@mui/material'
 import { multiStepContext } from '../../StepContext';
 
 function Signup() {
