@@ -31,9 +31,14 @@
     margin: 10px;
     transition: 0.3s ;
     opacity: 0.8;
+    color: #ff004f;
 }
 
 .header-options ul li:hover{
     border: 1px solid #ff004f;
     border-radius: 5px;
+}
+
+.header-options ul li a{
+    color: #ff004f;
 }

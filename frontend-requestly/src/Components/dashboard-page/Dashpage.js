@@ -25,16 +25,18 @@ function Dashpage() {
         <div className='dashboard-maincontainer'>
             <div className='dashboard-sidenavbar'>
                 <ul className='dashboard-sidenavbar-list'>
-                    <li className='links active-link' onClick={opentab('profile')}>Profile</li>
-                    <li className='links' onClick={opentab('request')}>My Requests</li>
+                <li className='links active-link' onClick={opentab('request')}>My Requests</li>
+
+                    <li className='links ' onClick={opentab('profile')}>Profile</li>
                 </ul>
             </div>
             <div className='dashboard-information'>
-                <div className='dashboard-contents active-content' id='profile'>
-                    <DashboardProfile />
-                </div>
-                <div className='dashboard-contents' id='request'>
+               
+                <div className='dashboard-contents active-content' id='request'>
                     <DashboardRequest />
+                </div>
+                <div className='dashboard-contents ' id='profile'>
+                    <DashboardProfile />
                 </div>
             </div>
         </div>

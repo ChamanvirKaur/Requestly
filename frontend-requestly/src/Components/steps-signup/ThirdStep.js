@@ -22,7 +22,7 @@ function ThirdStep() {
             <button className="submit-button" onClick={()=>setcurrentStep(2)} >
                     Back
                 </button>
-                <button className="submit-button" onClick={submitData}>
+                <button className="submit-button" onClick={submitData }>
                     Submit
                 </button>
             </div>

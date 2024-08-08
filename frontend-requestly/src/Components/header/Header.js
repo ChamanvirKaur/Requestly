@@ -16,8 +16,8 @@ function Header() {
         </div>
         <div className="header-options">
            <ul>
-            <li>Login</li>
-            <li>Signup</li>
+            <li><a href="/login"> Login </a></li>
+            <li><a href="/signup"> Signup</a></li>
            </ul>
         </div>
     </div>

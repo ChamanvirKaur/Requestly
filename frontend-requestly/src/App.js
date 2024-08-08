@@ -6,7 +6,7 @@ import Signup from './Components/signup/Signup';
 import Login from './Components/login/Login';
 import Dashpage from './Components/dashboard-page/Dashpage';
 import MakeRequest from './Components/makeRequest/MakeRequest';
-
+import Footer from './Components/footer/Footer';
 function App() {
  
   return (
@@ -32,6 +32,7 @@ function App() {
         
      
      </Routes>
+    <Footer/>
     </>
    </Router>
 

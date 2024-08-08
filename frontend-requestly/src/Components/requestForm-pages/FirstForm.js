@@ -1,20 +1,32 @@
-import React from 'react'
-import './request.css'
+import React, {  useContext } from 'react';
+import './request.css';
+import { multiStepContext } from '../../StepContext';
 
 function FirstForm() {
+    const{selectedCategory,handleCategoryChange} = useContext(multiStepContext);
+ 
   return (
     <div>
-        <h2>Select type of request </h2>
-        <select className='requestFormInput' name="" id="cars">
-            <option value="volvo">Marketing</option>
-            <option value="saab">Creative</option>
-            <option value="opel">Social Media</option>
-            <option value="audi">Media</option>
-            <option value="audi">Print</option>
-            <option value="audi">Other</option>
+        <h2>Select Category of request </h2>
+        <select 
+          className='requestFormInput' 
+          id="requestCategories" 
+          value={selectedCategory} 
+          onChange={handleCategoryChange}
+        >
+            <option value="Select"> --- Select ---</option>
+
+            <option value="Media Buy">Media Buy</option>
+            <option value="Content & Translation">Content & Translation</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Print & Production">Print & Production</option>
+            <option value="Event Marketing">Event Marketing</option>
+            <option value="General">General</option>
+
         </select>
     </div>
   )
 }
 
-export default FirstForm
+export default FirstForm;
+

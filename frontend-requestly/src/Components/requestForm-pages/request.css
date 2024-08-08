@@ -9,3 +9,19 @@
     font-size: 18px;
     border-radius: 6px;
 }
+h2{
+    text-align: start;
+}
+
+.datedivision{
+    display: flex;
+}
+.requestdate{
+    
+    width: 45%;
+    margin: 10px;
+}
+
+.errorPopup{
+    color: red;
+}

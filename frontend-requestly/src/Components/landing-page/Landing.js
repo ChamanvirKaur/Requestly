@@ -2,7 +2,7 @@
 import  './Landing.css'
 import Typed from 'typed.js'; // before importing typed.js you need to install it using npm install typed.js
 import React,{useEffect} from 'react';
-
+import 'animate.css';
 
 function Landing() {
     useEffect(() => {
@@ -24,10 +24,10 @@ function Landing() {
      <>
       <div className="body">
         {/* header-text class contains the basic information and types of marketing request we provide */}
-        <div className="header-text">
+        <div className="header-text ">
           {/* information about app */}
           <div className="info-text">
-              <h1>Requestly</h1>
+              <h1 className=''>Requestly</h1>
               <h4>Make any marketing related request with our simple and easy to understand platform <span>Requestly</span></h4>
           </div>
           {/* types of service we provide */}
@@ -43,10 +43,7 @@ function Landing() {
         <div className="auth-buttons">
            
           <div className="sign-up">
-            <a href="/signup"><button href="/signup" className='sign-up-button'>Sign-up</button></a>
-          </div>
-          <div className="login">
-           <a href="/login"> <button className='login-button'>Login</button></a>
+            <a href="/signup"><button href="/signup" className='sign-up-button animate__animated animate__pulse animate__infinite	infinite' >Click here</button></a>
           </div>
         </div>
         <div id="services">

@@ -10,6 +10,7 @@ function DashboardRequest() {
                 <th>No</th>
                 <th>Request</th>
                 <th>Status</th>
+                {/* <th>Actions</th> */}
             </tr>
             <tr>
                 <td>1</td>

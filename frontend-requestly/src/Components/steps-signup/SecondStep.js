@@ -14,9 +14,9 @@ function SecondStep() {
       
             <div className="signup-form">
             
-                <input value={userData.email} onChange={handleChnage} name='email'  placeholder='Email' type="email" />
+                
                 <input  value={userData.password} onChange={handleChnage} name='password' placeholder='Password' type="password" />
-           
+                <input value={userData.ConfirmPassword} onChange={handleChnage} name='ConfirmPassword'  placeholder='Confirm Password' type="password" />
 
             </div>
             <div className='next-back-buttons'>

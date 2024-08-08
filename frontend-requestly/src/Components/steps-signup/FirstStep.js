@@ -15,7 +15,9 @@ function FirstStep() {
             
             
                 <input value={userData.fullname} onChange={handleChnage}  name='fullname' placeholder='Full-Name' type="text" />
-                <input value={userData.phone} onChange={handleChnage} name='phone' placeholder='Phone' type="text" />
+                <input value={userData.email} onChange={handleChnage} name='email'  placeholder='Email' type="email" />
+
+                
              
 
             </div>
@@ -25,6 +27,7 @@ function FirstStep() {
                     Next
                 </button>
             </div>
+            
        
     </div>
     {/* {showPopup && (
