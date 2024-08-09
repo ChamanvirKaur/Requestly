@@ -1,17 +1,22 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import './DashboardProfile.css'
+import { multiStepContext } from '../../../StepContext';
+
 
 function DashboardProfile() {
+    const{userData,setuserData} = useContext(multiStepContext);
+    console.log(userData.email)
+
   return (
     <div className='dashboard-profilecontainer'>
         <h1>Profile</h1>
           <div className="dashboard-profileinfo">
                 
-                    <input  name='email'  placeholder='Email' type="email" />
+                    <input value={userData.email}  name='email'  placeholder='Email' type="email" />
                    
-                    <input   name='password' placeholder='Password' type="password" />
+                    {/* <input   name='password' placeholder='Password' type="password" /> */}
                    
-                    <input   name='fullname' placeholder='Full-Name' type="text" />
+                    <input   name={userData.name} placeholder='Full-Name' type="text" />
                    
                     <input   name='phone' placeholder='Phone' type="text" />
                    

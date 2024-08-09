@@ -37,7 +37,6 @@ function Signup() {
             <Step>
               <StepLabel><span style={{color:'green'}}>Step-3</span></StepLabel>
             </Step>
-            
           </Stepper>
           { showStep(currentStep)}
 

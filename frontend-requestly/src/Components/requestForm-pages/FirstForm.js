@@ -13,9 +13,9 @@ function FirstForm() {
           id="requestCategories" 
           value={selectedCategory} 
           onChange={handleCategoryChange}
+          
         >
             <option value="Select"> --- Select ---</option>
-
             <option value="Media Buy">Media Buy</option>
             <option value="Content & Translation">Content & Translation</option>
             <option value="Graphic Design">Graphic Design</option>

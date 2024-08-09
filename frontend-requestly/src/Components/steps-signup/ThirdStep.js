@@ -1,9 +1,18 @@
 import React,{useContext} from 'react'
 import './steps.css'
+import { useNavigate } from 'react-router-dom';
 import { multiStepContext } from '../../StepContext';
-function ThirdStep() {
-    const{setcurrentStep,userData,setuserData,submitData,handleChnage} = useContext(multiStepContext);
 
+function ThirdStep() {
+    const navigate=useNavigate();
+    const{setcurrentStep,userData,setuserData,handleChnage,finalData,setfinalData} = useContext(multiStepContext);
+    const submitData=()=>{
+        setfinalData(finalData=>[...finalData, userData]);
+        console.log(finalData)
+        // setuserData('');
+        setcurrentStep(1);
+        navigate("/makeRequest")
+    }
   return (
     <div className='signup-container'>
     <div className="signup-contentBox">

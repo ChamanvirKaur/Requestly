@@ -3,9 +3,11 @@ import FirstForm from '../requestForm-pages/FirstForm'
 import SecondForm from '../requestForm-pages/SecondForm'
 import ThirdForm from '../requestForm-pages/ThirdForm'
 import FourthForm from '../requestForm-pages/FourthForm'
+import { useNavigate } from 'react-router-dom'
 import {Stepper, StepLabel, Step, MobileStepper} from '@mui/material'
 import './MakeRequest.css'
 function MakeRequest() {
+    const navigate=useNavigate();
     const[page,setpage]=useState(0);
     const FormTitles=["Sign Up","personal Info", "Other","Price"];
     const FormDisplay = () =>{
@@ -23,6 +25,15 @@ function MakeRequest() {
         return <FourthForm/>
        }
     }
+
+    const movetodash =()=>{
+
+        if(page === FormTitles.length - 1){
+            navigate("/dashboard")
+        }
+       setpage((currpage)=>currpage + 1)
+       
+    }
   return (
     <div className='form'>
         <div className='progressbar'>
@@ -36,7 +47,7 @@ function MakeRequest() {
         </div>
         <div className='request-button-container'>
             <button disabled={page==0} onClick={()=> {setpage((currpage)=>currpage - 1)}}> Previous </button>
-            <button disabled={page == FormTitles.length-1} onClick={()=> {setpage((currpage)=>currpage + 1)}}> {page === FormTitles.length - 1 ? "Submit": "Next"} </button>
+            <button onClick={movetodash}> {page === FormTitles.length - 1 ? "Submit": "Next"} </button>
         </div>
      
     
