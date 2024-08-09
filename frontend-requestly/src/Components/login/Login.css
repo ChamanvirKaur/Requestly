@@ -60,14 +60,14 @@ margin-bottom: 20px;
 
 .login-form input:focus{
   
-border-color: #24700d;
-box-shadow: 0 0 8px #24700d;
+border-color: #0c6c14;
+box-shadow: 0 0 8px #0c6c14;
 background-color: #333;
 
 }
 
 .login-form input:focus-visible{
-outline: 2px solid #24700d;
+outline: 2px solid #0c6c14;
 outline-offset: 4px;
 }
 

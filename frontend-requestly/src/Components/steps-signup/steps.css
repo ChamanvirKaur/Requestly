@@ -42,14 +42,14 @@
 
 /* Input Field Focus Styling */
 .signup-form input:focus {
-    border-color: #ff004f;
-    box-shadow: 0 0 8px #ff004f;
+    border-color: #0c6c14;
+    box-shadow: 0 0 8px #0c6c14;
     background-color: #333;
 }
 
 /* Enhanced Focus Ring for Accessibility */
 .signup-form input:focus-visible {
-    outline: 2px solid #ff004f;
+    outline: 2px solid #0c6c14;
     outline-offset: 4px;
 }
 
