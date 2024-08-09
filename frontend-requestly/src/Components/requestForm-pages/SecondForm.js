@@ -5,7 +5,7 @@ function SecondForm() {
     const{selectedCategory,handleCategoryChange} = useContext(multiStepContext);
 
   return (
-    <div>
+    <div className='requestForm'>
         <h2>Select a request Type</h2>
 
         {selectedCategory=='Select' && <h1>Please select any Request Category</h1>}

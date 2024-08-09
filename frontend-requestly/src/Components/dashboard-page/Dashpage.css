@@ -1,7 +1,7 @@
 .dashboard-maincontainer{
     display: flex;
-    
     scroll-behavior: smooth;
+    position: relative;
 }   
 
 .dashboard-sidenavbar{
@@ -9,7 +9,7 @@
     height: 1000vh;
     background-color: #080808;
     box-shadow:4px 6px 9px 0px;
-   position: fixed;
+    position: absolute;
     
 }
 

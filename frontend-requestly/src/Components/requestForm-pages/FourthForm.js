@@ -3,7 +3,7 @@ import React from 'react'
 function FourthForm() {
   return (
   
-      <div>
+      <div className='requestForm'>
     
       
             <h2>Expected Price</h2>

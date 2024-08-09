@@ -1,5 +1,6 @@
 #header{
     width: 100%;
+    position: relative;
     /* height: 100vh; */
     /* background-image: url(images/MeetSoni.jpg);
     background-position: center;
@@ -66,9 +67,9 @@ nav .fa-solid{
 
 @media only screen and (max-width : 768px){
    
-    #header{
+    /* #header{
         height: 100vh;
-    }
+    } */
 
     nav .fa-solid{
         display: block;

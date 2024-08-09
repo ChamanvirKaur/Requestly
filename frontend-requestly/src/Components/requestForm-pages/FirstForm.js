@@ -6,7 +6,7 @@ function FirstForm() {
     const{selectedCategory,handleCategoryChange} = useContext(multiStepContext);
  
   return (
-    <div>
+    <div className='requestForm'>
         <h2>Select Category of request </h2>
         <select 
           className='requestFormInput' 
