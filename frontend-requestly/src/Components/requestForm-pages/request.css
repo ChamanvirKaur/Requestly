@@ -39,8 +39,8 @@
 
 /* Dropdown Focus Styling */
 .requestFormInput:focus {
-    border-color: #00ccff;
-    box-shadow: 0 0 8px #00ccff;
+    border-color: #24700d;
+    box-shadow: 0 0 8px #24700d;
     background-color: #333;
 }
 
@@ -52,7 +52,7 @@
 
 /* Enhanced Focus Ring for Accessibility */
 .requestFormInput:focus-visible {
-    outline: 2px solid #00ccff;
+    outline: 2px solid #24700d;
     outline-offset: 4px;
 }
 
