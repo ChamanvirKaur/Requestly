@@ -15,7 +15,7 @@ text-align: center;
   background: linear-gradient(145deg, #2a2a2a, #ff004f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: font-size 0.3s ease;
+  transition: font-size 0.3s ease;  
 }
 .login-contentBox{
 width: 50%;
