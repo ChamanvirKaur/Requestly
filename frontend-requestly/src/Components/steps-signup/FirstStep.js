@@ -14,12 +14,15 @@ function FirstStep() {
             <div className="signup-form">
             
             
-                <input value={userData.fullname} onChange={handleChnage}  name='fullname' placeholder='Full-Name' type="text" />
+                <div className='fullnamebox'>
+                    <div className='firstName'>
+                    <input value={userData.fullname} onChange={handleChnage}  name='fullname' placeholder='Full-Name' type="text" />
+                    </div>
+                    <div className='lastName'>
+                    <input value={userData.fullname} onChange={handleChnage}  name='fullname' placeholder='Full-Name' type="text" />
+                    </div>
+                </div>
                 <input value={userData.email} onChange={handleChnage} name='email'  placeholder='Email' type="email" />
-
-                
-             
-
             </div>
             <div>
           

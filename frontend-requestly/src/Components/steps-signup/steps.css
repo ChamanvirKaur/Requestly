@@ -146,3 +146,14 @@
     color: #ffffff;
     box-shadow: 0 4px 8px rgba(255, 0, 79, 0.4);
 }
+
+
+.fullnamebox{
+    width: 100%;
+    display: flex;
+}
+
+.firstName , .lastName{
+    width: 50%;
+    margin: 10px;
+}
