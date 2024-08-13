@@ -16,8 +16,8 @@ function DashboardProfile() {
                    
                     {/* <input   name='password' placeholder='Password' type="password" /> */}
                    
-                    <input value={userData.firstname}   name='firstname' placeholder='Full-Name' type="text" />
-                    <input value={userData.lastname}   name='lastname' placeholder='Full-Name' type="text" />
+                    <input value={userData.firstname}   name='firstname' placeholder='First-Name' type="text" />
+                    <input value={userData.lastname}   name='lastname' placeholder='Last-Name' type="text" />
 
                    
                     <input value={userData.phone}  name='phone' placeholder='Phone' type="text" />
